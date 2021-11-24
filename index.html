@@ -15,6 +15,12 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="css/slick/slick.css">
     <!-- slick css file -->
+
+    <link rel="stylesheet" href="css/venobox/venobox.min.css">
+    <!-- venobox css file -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- fontawsome CDN link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -23,7 +29,7 @@
     <section id="NAVBAR" class="w-100 position-fixed">
         <nav class="navbar navbar-expand-lg navbar-light py-0">
             <div class="container">
-                <a class="navbar-brand py-0" href="#"><img src="images/logo.png" alt=""></a>
+                <a class="navbar-brand py-0" href="#"><img src="images/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -121,9 +127,38 @@
 </section>
 <!-- End of banner section -->
 
-
-
-
+<!-- about section start -->
+<section id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about_video position-relative">
+                    <img src="images/aboutImage.png" alt="aboutImage" class="w-100 ">
+                    <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                        <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=oAM6H2LqT6A">
+                            <i class="fas fa-play text-center"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="aboutData">
+                    <header class="text-center">
+                        <h3 class="Oswald_reg fontSize-22 mb-0 text-uppercase">About</h3>
+                        <img src="images/aboutUnderline.png" alt="aboutUnderline">
+                    </header>
+                    <p class="mb-0 Oswald_reg fontSize-14 text-center">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    </p>
+                    <p class="mb-0 Oswald_reg fontSize-14 text-center">
+                        Remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software my name is of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of about section -->
 
 
 
@@ -132,6 +167,7 @@
 
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/slick/slick.min.js"></script>
+    <script src="js/venobox/venobox.min.js"></script>
     <script src="js/Bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
