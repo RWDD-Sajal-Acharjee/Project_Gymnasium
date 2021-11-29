@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     // banner slider
     $('.banner_slider').slick({
-        autoplay: true,
+        // autoplay: true,
         arrows: false,
         dots: true,
     });
@@ -20,4 +20,10 @@ $(document).ready(function(){
         spinColor  : '#E23E38',
         share      : ['facebook', 'twitter', 'download']
     });
+
+    $('.testimonialSlider').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 2,
+    })
 })

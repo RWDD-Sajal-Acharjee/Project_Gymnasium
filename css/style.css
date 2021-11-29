@@ -4,6 +4,8 @@
     --headingCol: #353535;
     --openfont: 'Oswald', sans-serif;
     --osWaldfont: 'Oswald', sans-serif;
+    --bg1: #dddd ;
+    --bg2: #f1f1f1;
 }
 
 *{
@@ -69,6 +71,14 @@ img{
 .fontSize_40{
     font-size: 40px;
 }
+
+.fontSize_50{
+    font-size: 50px;
+}
+
+.fontSize_29{
+    font-size: 29px;
+}
 /* Common font style */
 
 /* nav section start */
@@ -83,6 +93,7 @@ img{
 .navbar-brand{
     background: rgba(241, 241, 241, .2);
     padding: 10px 30px !important;
+    margin-left: 20px;
     transform: skewX(-30deg);
     -webkit-transform: skewX(-30deg);
     -moz-transform: skewX(-30deg);
@@ -222,22 +233,24 @@ img{
 
 .banner_slider .bg_1 .banner-text h3::before {
 	content: '';
-	width: 166px;
+	width: 169px;
 	height: 3px;
 	background: var(--barndCol);
 	position: absolute;
 	top: 26px;
 	left: -5px;
+	clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
 }
 
 .banner_slider .bg_1 .banner-text h3::after {
 	content: '';
-	width: 121px;
+	width: 130px;
 	height: 3px;
 	background: var(--barndCol);
 	position: absolute;
 	top: 23px;
 	right: -8px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
 }
 
 .banner_slider .bg_1 .banner-text h1::before {
@@ -362,11 +375,12 @@ img{
 
 #ABOUT .aboutData p {
 	color: var(--pCol);
-	padding: 0 8px;
+	padding: 0 41px;
+    line-height: 24px;
 }
 
-#ABOUT .aboutData p:first-of-type{
-    margin: 15px 0 20px 0 !important;
+#ABOUT .aboutData p:first-of-type {
+	padding: 10px 41px 10px 41px !important;
 }
 /* End of about section */
 
@@ -429,3 +443,257 @@ img{
     height: 100%;
 }
 /* End of gallery section */
+
+/* Our team section start */
+ #TEAM{
+     margin-top: 70px;
+     padding-bottom: 30px;
+ }
+
+ #TEAM header h3{
+    margin-bottom: -6px !important;
+    color: var(--headingCol);
+}
+
+#TEAM .teamMember{
+    margin-top: 65px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#TEAM .teamMember .card{
+    border-color: transparent;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#TEAM .teamMember:hover .card{
+    border-color: var(--bg1);
+}
+
+#TEAM .teamMember:hover{
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
+
+#TEAM .teamMember .card .memberImage .overlay{
+    background: rgba(226, 62, 56, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: scale(.95);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#TEAM .teamMember .card .memberImage .overlay a{
+    margin: 10px 10px 0 0;
+}
+
+#TEAM .teamMember .card .memberImage .overlay a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+#TEAM .teamMember .card .memberImage .overlay a:hover i{
+    color: #1DA0F2;
+}
+
+#TEAM .teamMember:hover .card .memberImage .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+#TEAM .teamMember .card .card-body p{
+    padding: 0 17px !important;
+}
+
+#TEAM .teamMember .card-body .card-text{
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#TEAM .teamMember:hover .card-body .card-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* End of our team section */
+
+/* testimonial section start */
+
+#TESTIMONIAL .testimonial-bg{
+    background: url(../images/testimonial_background.png) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    margin-top: 22px;
+}
+
+#TESTIMONIAL .testimonial-bg::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Details .ratings i{
+    color: var(--barndCol);
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Text{
+    line-height: 18px;
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider{
+    margin-top: 30px;
+}
+
+
+
+/* slick */
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -14px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li:first-of-type{
+    margin-left: 0;
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li button{
+    font-size: 0;
+    outline: 0;
+    border: none;
+}
+
+#TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li.slick-active{
+    border-color: var(--barndCol);
+    background: var(--barndCol);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/* slick */
+
+/* End of testimonial section */
+
+/* membership section start */
+#MEMBERSHIP{
+
+}
+
+#MEMBERSHIP .teamMembership{
+    padding: 30px 0 80px 0;
+}
+
+#MEMBERSHIP .teamMembership .card{
+    border: transparent;
+}
+
+#MEMBERSHIP .teamMembership .card .membershipBackground{
+    background: url(../images/memberShipImage-1.png) no-repeat center/ cover;
+    height: 120px;
+}
+
+#MEMBERSHIP .teamMembership .card .background-2{
+    background: url(../images/memberShipImage-2.jpg) no-repeat center/ cover;
+}
+
+#MEMBERSHIP .teamMembership .card .background-3{
+    background: url(../images/memberShipImage-3.jpg) no-repeat center/ cover;
+}
+
+#MEMBERSHIP .teamMembership .card .membershipBackground .overlay{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#MEMBERSHIP .teamMembership .card .membershipBackground .overlay h4{
+    z-index: 1;
+}
+
+#MEMBERSHIP .teamMembership .card .cardHeader{
+    background: var(--bg1);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#MEMBERSHIP .teamMembership .card:hover .cardHeader{
+    background: var(--barndCol);
+    color: var(--bg2);
+}
+
+#MEMBERSHIP .teamMembership .card .cardHeader h5{
+    line-height: 24px;
+    margin: 0;
+}
+
+#MEMBERSHIP .teamMembership .card .memberService ul li{
+    border: none;
+    color: var(--pCol);
+    background: var(--bg2);
+}
+
+#MEMBERSHIP .teamMembership .card .card-footer{
+    background: var(--bg1);
+    border: none;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#MEMBERSHIP .teamMembership .card:hover .card-footer{
+    background: var(--barndCol);
+    color: var(--bg2);
+}
+/* End of membership section */
+
