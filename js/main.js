@@ -21,9 +21,16 @@ $(document).ready(function(){
         share      : ['facebook', 'twitter', 'download']
     });
 
+    //testimonial slider
     $('.testimonialSlider').slick({
         arrows: false,
         dots: true,
         slidesToShow: 2,
     })
+
+    //funfact counterUp
+    $('.counter').counterUp({
+        delay: 15,
+        time: 1000,
+    });
 })

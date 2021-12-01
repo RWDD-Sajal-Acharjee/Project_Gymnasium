@@ -5,7 +5,7 @@
     --openfont: 'Oswald', sans-serif;
     --osWaldfont: 'Oswald', sans-serif;
     --bg1: #dddd ;
-    --bg2: #f1f1f1;
+    --bg2: #f1f1f1c2;
 }
 
 *{
@@ -20,6 +20,10 @@ ul{
 
 img{
     vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Common CSS style */
@@ -561,24 +565,24 @@ img{
     color: var(--barndCol);
 }
 
-#TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Text{
+#TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Text p{
     line-height: 18px;
+    margin-top: 11px;
 }
 
-#TESTIMONIAL .testimonial-bg .testimonialSlider{
-    margin-top: 30px;
+#TESTIMONIAL .testimonial-bg .testimonialSlider {
+	margin-top: 30px;
+	padding: 30px 0 62px 0;
 }
-
-
 
 /* slick */
 
 #TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots{
     display: flex;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -14px;
+    left: 95%;
+    /* transform: translateX(-50%); */
+    bottom: 15px;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -691,9 +695,121 @@ img{
     -o-transition: all linear .4s;
 }
 
+#MEMBERSHIP .teamMembership .card .card-footer a{
+    background:none;
+    color: var(--headingCol);
+    transition: all linear .8s;
+    -webkit-transition: all linear .8s;
+    -moz-transition: all linear .8s;
+    -ms-transition: all linear .8s;
+    -o-transition: all linear .8s;
+}
+
 #MEMBERSHIP .teamMembership .card:hover .card-footer{
     background: var(--barndCol);
+}
+
+#MEMBERSHIP .teamMembership .card:hover .card-footer a{
     color: var(--bg2);
 }
+
 /* End of membership section */
+
+/* funfact section start */
+
+#FUNFACT{
+    background: url(../images/funfactImage.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+    padding: 45px 0 45px 0;
+}
+
+#FUNFACT::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}  
+
+#FUNFACT .funItem p{
+    margin-top: -15px;
+}
+/* End of funfact section */
+
+/* Our classes section start */
+#OURCLASSES{
+    margin-top: 73px;
+    margin-bottom: 62px;
+}
+#OURCLASSES .routineMenu {
+	line-height: 50px;
+	margin-top: 25px;
+}
+
+#OURCLASSES .routineMenu .nav-tabs{
+    border-bottom: none;
+}
+
+#OURCLASSES .routineMenu .nav-tabs .nav-item {
+	width: 16.6%;
+	background: #F1F1F1;
+	padding: 0;
+}
+
+#OURCLASSES .routineMenu .nav-tabs .nav-item .nav-link.active{
+    border-color: transparent !important;
+    background: var(--barndCol);
+    color: #ffff;
+}
+
+#OURCLASSES .routineMenu .nav-tabs .nav-item .nav-link{
+    border-radius: 0;
+    color: var(--pCol);
+    width: 100%;
+    padding: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+#OURCLASSES .routineMenu .nav-tabs .nav-item .nav-link:hover{
+    border-color: transparent;
+}
+
+#OURCLASSES .routineContent ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin-top: 24px;
+}
+
+#OURCLASSES .routineContent ul li {
+	background: var(--bg1);
+	width: 19.485%;
+	margin-left: 6px;
+	padding: 50px 0 50px 0;
+	margin-top: 6px;
+}
+
+#OURCLASSES .routineContent ul li i {
+	font-size: 22px;
+}
+
+#OURCLASSES .routineContent ul li:first-of-type{
+    margin-left: 0;
+}
+
+#OURCLASSES .routineContent ul li:nth-child(6){
+    margin-left: 0;
+}
+
+#OURCLASSES .routineContent ul li.active{
+    background: var(--barndCol);
+    color: #ffff;
+}
+/* End of our classes section */
 
