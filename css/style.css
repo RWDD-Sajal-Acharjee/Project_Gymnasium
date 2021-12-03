@@ -821,8 +821,32 @@ a{
 }
 
 #OURCLASSES .container .web-list .slick-center img{
-    box-shadow: 0px -1px 6px;
+    box-shadow: 0 0 5px 2px;
+    transform: scale(1.01);
 }
 
+#OURCLASSES .container .web-list .slick-track{
+    padding: 5px 0 !important;
+}
+
+#OURCLASSES .container .web-list .left-arrow {
+	position: absolute;
+	top: 50%;
+	left: -24px;
+	transform: translateY(-50%);
+	font-size: 28px;
+    color: var(--headingCol);
+    cursor: pointer;
+}
+
+#OURCLASSES .container .web-list .right-arrow {
+	position: absolute;
+	top: 50%;
+	right: -24px;
+	transform: translateY(-50%);
+	font-size: 28px;
+    color: var(--headingCol);
+    cursor: pointer;
+}
 /* End of our classes section */
 

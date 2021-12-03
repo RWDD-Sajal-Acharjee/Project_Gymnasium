@@ -42,5 +42,7 @@ $(document).ready(function(){
         slidesToShow: 5,
         centerMode: true,
         centerPadding: '0',
+        prevArrow: '<i class="fas fa-chevron-left slick-prev left-arrow"></i>',
+        nextArrow: '<i class="fas fa-chevron-right slick-prev right-arrow"></i>',
     })
 })
