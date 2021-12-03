@@ -561,6 +561,10 @@ a{
     z-index: -1;
 }
 
+#TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem{
+    margin: 0 5px;
+}
+
 #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Details .ratings i{
     color: var(--barndCol);
 }
@@ -811,5 +815,14 @@ a{
     background: var(--barndCol);
     color: #ffff;
 }
+
+#OURCLASSES .container .web-list img{
+    width: 96%;
+}
+
+#OURCLASSES .container .web-list .slick-center img{
+    box-shadow: 0px -1px 6px;
+}
+
 /* End of our classes section */
 

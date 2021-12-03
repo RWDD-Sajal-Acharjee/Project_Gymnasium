@@ -33,4 +33,14 @@ $(document).ready(function(){
         delay: 15,
         time: 1000,
     });
+
+
+    //testimonial slider
+    $('.web-list').slick({
+        arrows: true,
+        dots: false,
+        slidesToShow: 5,
+        centerMode: true,
+        centerPadding: '0',
+    })
 })
