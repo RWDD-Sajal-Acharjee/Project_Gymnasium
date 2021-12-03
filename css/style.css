@@ -850,3 +850,103 @@ a{
 }
 /* End of our classes section */
 
+
+/*=============================
+    Footer section start
+===========================*/
+
+/* Opening div start */
+#FOOTER .footer-bg{
+    background: url(../images/footer-background.png) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+
+#FOOTER .footer-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+#FOOTER .footer-bg .opening-hours .card{
+    background: none;
+}
+
+#FOOTER .footer-bg .opening-hours .card .list-group .closed {
+	margin-right: 81px;
+}
+
+
+#FOOTER .footer-bg .opening-hours .card .card-header{
+    border: none;
+}
+
+
+#FOOTER .footer-bg .opening-hours .card .list-group li{
+    border: none;
+    margin: -6px 0;
+    background: none;
+}
+
+#FOOTER .footer-bg .opening-hours .card .list-group li span{
+    letter-spacing: 1px;
+}
+
+/* Opening div end */
+
+/* twitter div start */
+#FOOTER .footer-bg .twitter-feed .card{
+    background: none;
+}
+
+#FOOTER .footer-bg .twitter-feed .card .list-group li{
+    border: none;
+    margin: -6px 0;
+    background: none;
+    margin-top: 30px;
+}
+
+#FOOTER .footer-bg .twitter-feed .card .list-group li:first-of-type{
+    margin-top: 0;
+}
+
+#FOOTER .footer-bg .twitter-feed .card .list-group li .feedback i{
+    color: #1DA1F2;
+    font-size: 20px;
+}
+
+#FOOTER .footer-bg .twitter-feed .card .list-group li .feedback .text p {
+	line-height: 18px;
+	padding: 0 11px;
+}
+
+#FOOTER .footer-bg .twitter-feed .card .list-group li .feedback .text span{
+    margin: -14px 0 0 10px;
+    line-height: 18px;
+}
+/* End of twitter div */
+
+/* flickr div start */
+#FOOTER .footer-bg .flickr-photos .card{
+    background: none;
+}
+
+#FOOTER .footer-bg .flickr-photos .card .list-group li img{
+   margin-left: -30px;
+}
+
+#FOOTER .footer-bg .flickr-photos .card .card-body .row{
+    margin-top: 10px;
+}
+
+#FOOTER .footer-bg .flickr-photos .card .card-body .row:first-of-type{
+    margin-top: 0;
+}
+/* End of twitter div */
+
+
+/* End of footer section */
