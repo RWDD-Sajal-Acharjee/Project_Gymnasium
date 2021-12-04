@@ -577,20 +577,20 @@ a{
 #TESTIMONIAL .testimonial-bg .testimonialSlider {
 	margin-top: 30px;
 	padding: 30px 0 62px 0;
+    position: relative;
 }
 
 /* slick */
 
 #TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots{
-    display: flex;
     position: absolute;
-    left: 95%;
-    /* transform: translateX(-50%); */
+    left: 48%;
+    transform: translate(-50%);
     bottom: 15px;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
 }
 
 #TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li{
