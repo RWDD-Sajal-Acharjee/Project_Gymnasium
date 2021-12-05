@@ -831,13 +831,22 @@ a{
 }
 
 #OURCLASSES .container .web-list .left-arrow {
-	position: absolute;
-	top: 50%;
-	left: -24px;
-	transform: translateY(-50%);
-	font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    transform: translateY(-50%);
+    font-size: 28px;
     color: var(--headingCol);
     cursor: pointer;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#OURCLASSES .container .web-list .left-arrow:hover{
+    color: var(--barndCol);
 }
 
 #OURCLASSES .container .web-list .right-arrow {
@@ -848,6 +857,15 @@ a{
 	font-size: 28px;
     color: var(--headingCol);
     cursor: pointer;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#OURCLASSES .container .web-list .right-arrow:hover{
+    color: var(--barndCol);
 }
 /* End of our classes section */
 
@@ -857,13 +875,13 @@ a{
 ===========================*/
 
 /* Opening div start */
-#FOOTER .footer-bg{
+.footer-content{
     background: url(../images/footer-background.png) no-repeat center / cover;
     position: relative;
     z-index: 1;
 }
 
-#FOOTER .footer-bg::after{
+.footer-content::after{
     content: '';
     width: 100%;
     height: 100%;
@@ -873,81 +891,143 @@ a{
     z-index: -1;
 }
 
-#FOOTER .footer-bg .opening-hours .card{
-    background: none;
+.footer-content .footer-head .footer-logo{
+    padding: 30px 0 60px 0;
 }
 
-#FOOTER .footer-bg .opening-hours .card .list-group .closed {
-	margin-right: 81px;
+.footer-content .footer-body{
+    position: relative;
+}
+.footer-content .footer-body::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #ffff;
+    top: -30px;
+    left: 0;
+}
+.footer-content .footer-body .footer-item h5{
+    line-height: 24px;
+    margin-bottom: 30px !important;
 }
 
-
-#FOOTER .footer-bg .opening-hours .card .card-header{
-    border: none;
+.footer-content .footer-body .footer-item .opening-hours li{
+    margin-bottom: 10px;
 }
 
-
-#FOOTER .footer-bg .opening-hours .card .list-group li{
-    border: none;
-    margin: -6px 0;
-    background: none;
+.footer-content .footer-body .footer-item li:last-child{
+    margin-bottom: 0;
 }
 
-#FOOTER .footer-bg .opening-hours .card .list-group li span{
-    letter-spacing: 1px;
+.footer-content .footer-body .footer-item .opening-hours li span{
+    width: 100px;
+    display: inline-block;
 }
 
-/* Opening div end */
-
-/* twitter div start */
-#FOOTER .footer-bg .twitter-feed .card{
-    background: none;
+.footer-content .footer-body .footer-item .twitter-feed .twitter-icon{
+    position: relative;
 }
 
-#FOOTER .footer-bg .twitter-feed .card .list-group li{
-    border: none;
-    margin: -6px 0;
-    background: none;
-    margin-top: 30px;
-}
-
-#FOOTER .footer-bg .twitter-feed .card .list-group li:first-of-type{
-    margin-top: 0;
-}
-
-#FOOTER .footer-bg .twitter-feed .card .list-group li .feedback i{
+.footer-content .footer-body .footer-item .twitter-icon i{
     color: #1DA1F2;
     font-size: 20px;
 }
 
-#FOOTER .footer-bg .twitter-feed .card .list-group li .feedback .text p {
-	line-height: 18px;
-	padding: 0 11px;
+.footer-content .footer-body .footer-item .twitter-feed li{
+    margin-bottom: 30px;
+    padding-left: 30px;
 }
 
-#FOOTER .footer-bg .twitter-feed .card .list-group li .feedback .text span{
-    margin: -14px 0 0 10px;
-    line-height: 18px;
-}
-/* End of twitter div */
-
-/* flickr div start */
-#FOOTER .footer-bg .flickr-photos .card{
-    background: none;
+.footer-content .footer-body .footer-item .flickr-photos li{
+    width: 25%;
 }
 
-#FOOTER .footer-bg .flickr-photos .card .list-group li img{
-   margin-left: -30px;
+.footer-content .footer-body .footer-item .flickr-photos li img{
+    width: 100%;
+    padding: 5px;
+    position: relative;
 }
 
-#FOOTER .footer-bg .flickr-photos .card .card-body .row{
-    margin-top: 10px;
+.footer-content .footer-body .footer-item .flickr-photos li .overlay{
+    background: rgba(226, 62, 56, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
-#FOOTER .footer-bg .flickr-photos .card .card-body .row:first-of-type{
-    margin-top: 0;
+.footer-content .footer-body .footer-item .flickr-photos li .overlay i{
+    cursor: pointer;
 }
-/* End of twitter div */
+
+.footer-content .footer-body .footer-item .flickr-photos li:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer-content .footer-body .footer-item .footer-contact .contact-icon i{
+    color: var(--barndCol);
+}
+
+.footer-content .footer-body .footer-item .footer-contact li{
+    padding-left: 20px;
+    margin-bottom: 14px;
+}
+
+.footer-content .footer-body .footer-item .footer-contact li:last-child{
+    margin-bottom: 30px;
+}
+
+.footer-content .footer-body .footer-item .footer-social{
+    margin-top: -5px;
+}
+
+.footer-content .footer-body .footer-item .footer-social .btn{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0 ;
+    line-height: 30px;
+    margin-left: 5px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.footer-content .footer-body .footer-item .footer-social .btn:first-of-type{
+    margin-left: 0;
+}
 
 
+.footer-content .footer-body .footer-item .footer-social .btn:hover{
+    background: var(--barndCol);
+    border-color: var(--barndCol);
+    color: #ffff;
+}
+
+.footer-content .footer-footer .copyright p{
+    line-height: 50px;
+}
+.footer-content .footer-footer .copyright a{
+    color: var(--barndCol);
+}
+
+.footer-content .footer-footer{
+    position: relative;
+}
+.footer-content .footer-footer::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #ffff;
+    top: 0;
+    left: 0;
+}
 /* End of footer section */
