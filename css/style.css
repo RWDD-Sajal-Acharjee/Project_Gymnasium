@@ -795,9 +795,9 @@ a{
 #OURCLASSES .routineContent ul li {
 	background: var(--bg1);
 	width: 19.485%;
-	margin-left: 6px;
+	margin-left: 5px !important;
 	padding: 50px 0 50px 0;
-	margin-top: 6px;
+	margin-top: 7px;
 }
 
 #OURCLASSES .routineContent ul li i {
