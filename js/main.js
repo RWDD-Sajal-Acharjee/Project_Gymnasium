@@ -26,6 +26,27 @@ $(document).ready(function(){
         arrows: false,
         dots: true,
         slidesToShow: 2,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+        ],
+
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+        ]
     })
 
     //funfact counterUp
@@ -35,7 +56,7 @@ $(document).ready(function(){
     });
 
 
-    //testimonial slider
+    //brand slider
     $('.web-list').slick({
         arrows: true,
         dots: false,
@@ -44,5 +65,14 @@ $(document).ready(function(){
         centerPadding: '0',
         prevArrow: '<i class="fas fa-chevron-left slick-prev left-arrow"></i>',
         nextArrow: '<i class="fas fa-chevron-right slick-prev right-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+        ],
     })
 })
