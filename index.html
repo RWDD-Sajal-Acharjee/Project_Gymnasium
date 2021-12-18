@@ -23,19 +23,25 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <!-- fontawsome CDN link -->
+
+    <link rel="stylesheet" href="css/color-switch.css">
+    <!-- color css file -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive css file -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <!-- navbar section start -->
-    <section id="NAVBAR" class="w-100 position-fixed">
+    <section id="NAVBAR" class="w-100">
         <nav class="navbar navbar-expand-lg navbar-light py-0">
             <div class="container">
                 <a class="navbar-brand py-0" href="#"> <img src="images/logo.png" alt="logo" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase  ms-auto Oswald_reg fontSize_14">
@@ -150,7 +156,7 @@
     <section id="ABOUT">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 order-md-2 order-sm-2 order-lg-1 ">
+                <div class="col-lg-6 order-2 order-lg-1 ">
                     <div class="about_video position-relative">
                         <figure>
                             <img src="images/aboutImage.png" alt="aboutImage" class="w-100 img-fluid">
@@ -164,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-md-1 order-lg-2">
+                <div class="col-lg-6 order-1 order-lg-2">
                     <div class="aboutData">
                         <header class="text-center">
                             <h3 class="Oswald_reg fontSize-22 mb-0 text-uppercase">About</h3>
@@ -533,7 +539,7 @@
                                     <li class="list-group-item">x</li>
                                 </ul>
                             </div>
-                            <div class="card-footer cardHeader text-center">
+                            <div class="card-footer cardfooter text-center">
                                 <a href="#" class="card-title Oswald_medium fontSize_16 text-uppercase">Join Now</a>
                             </div>
                         </div>
@@ -563,7 +569,7 @@
                                     <li class="list-group-item">x</li>
                                 </ul>
                             </div>
-                            <div class="card-footer cardHeader text-center">
+                            <div class="card-footer cardfooter text-center">
                                 <a href="#" class="card-title Oswald_medium fontSize_16 text-uppercase">Join Now</a>
                             </div>
                         </div>
@@ -593,7 +599,7 @@
                                     <li class="list-group-item">x</li>
                                 </ul>
                             </div>
-                            <div class="card-footer cardHeader text-center">
+                            <div class="card-footer cardfooter text-center">
                                 <a href="#" class="card-title Oswald_medium fontSize_16 text-uppercase">Join Now</a>
                             </div>
                         </div>
@@ -629,7 +635,7 @@
                 <div class="col-lg-2 col-md-6 col-sm-3">
                     <div class="funItem text-lg-center text-md-start">
                         <h5 class=" counter Oswald_bold fontSize_40 text-white">369</h5>
-                        <p class="mb-0 Oswald_reg fontSize-16 text-white">Couse Complete</p>
+                        <p class="mb-0 Oswald_reg fontSize-16 text-white">Course Complete</p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 d-sm-none d-lg-block d-md-block">
@@ -1074,7 +1080,7 @@
             <div class="footer-head">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-2 m-lg-auto col-md-2 m-md-auto col-sm-3 m-sm-auto">
+                        <div class="text-center">
                             <div class="footer-logo">
                                 <a href="index.html">
                                     <img src="images/logo.png" alt="logo">
@@ -1121,7 +1127,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-3 col-md-6 d-sm-none d-lg-block d-md-block">
                             <div class="footer-item">
                                 <h5 class="OpenSans_reg fontSize-14 mb-0 text-white text-uppercase">
                                     Twitter Feed
@@ -1151,9 +1157,9 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="col-lg-3 col-md-6 d-sm-none d-lg-block d-md-block">
                             <div class="footer-item">
-                                <h5 class="OpenSans_reg fontSize-14 mb-0 text-white text-uppercase">
+                                <h5 class="OpenSans_reg fontSize-14 mb-0 text-white text-uppercase mt-md-5 mt-lg-0">
                                     Flickr Photos
                                 </h5>
                                 <ul class="ps-0 mb-0 d-flex flex-wrap flickr-photos">
@@ -1246,7 +1252,7 @@
 
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="footer-item">
-                                <h5 class="OpenSans_reg fontSize-14 mb-0 text-white text-uppercase">
+                                <h5 class="OpenSans_reg fontSize-14 mb-0 text-white text-uppercase mt-md-5 mt-lg-0">
                                     Contact
                                 </h5>
                                 <ul class="ps-0 mb-0 footer-contact">
@@ -1313,7 +1319,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 m-lg-auto col-md-6 m-md-auto">
-                            <div class="copyright text-white fontSize_13">
+                            <div class="copyright text-white fontSize_13 text-center">
                                 <p>Copyright &copy; All rights reserved by <a href="index.html"> GYMNASIUM.</a></p>
                             </div>
                         </div>
@@ -1326,6 +1332,55 @@
     <!----------------------------------
         End of footer section
     ---------------------------------->
+
+    <!-- color picker section start -->
+    <div class="color-picker">
+        <div class="color-btn">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <ul class="d-flex justify-content-evenly align-items-center h-100 mb-0 p-0 ">
+            <li class="default"></li>
+            <li class="orange"></li>
+            <li class="blue"></li>
+            <li class="green"></li>
+        </ul>
+    </div>
+    <!-- End of color picker section -->
+
+    <!-- menu button -->
+    <div class="menu-bar">
+        <div class="menu-btn d-flex justify-content-center align-items-center h-100 text-white">
+            <i class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasScrolling"></i>
+        </div>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo">
+                  </a>
+                <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+
+            <nav class="navbar navbar-light">
+                <div class="container-fluid p-0">
+                  <a class="navbar-brand" href="#">Home</a>
+                  <a class="navbar-brand" href="#">About Us</a>
+                  <a class="navbar-brand" href="#">Plans</a>
+                  <a class="navbar-brand" href="#">Team</a>
+                  <a class="navbar-brand" href="#">Gallery</a>
+                  <a class="navbar-brand" href="#">Testimonial</a>
+                  <a class="navbar-brand" href="#">Contact</a>
+
+                  <a class="navbar-brand" href="#">Gallery</a>
+                  <a class="navbar-brand" href="#">Testimonial</a>
+                  <a class="navbar-brand" href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End of menu button -->
 
 
     <script src="js/jquery-2.2.4.min.js"></script>

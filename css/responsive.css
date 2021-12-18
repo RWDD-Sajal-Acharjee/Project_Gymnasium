@@ -1,0 +1,520 @@
+/*====================== 
+    extra small device
+========================*/
+@media(max-width: 575px){
+    /* navbar css start */
+    .navbar-brand {
+        position: static;
+        transform: skewX(0deg);
+        border-radius: 10px;
+        background: rgba(168, 168, 168, 0.604);
+
+    }
+
+    .navbar-brand img{
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-toggler i{
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav {
+        background: rgba(226, 62, 56, 0.3);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        z-index: 2;
+    }
+    /* navbar css end */
+
+    /* banner section start */
+    .banner_slider .bg_1 .banner-text h3::before,
+    .banner_slider .bg_1 .banner-text h3::after,
+    .banner_slider .bg_1 .banner-text h1::before,
+    .banner_slider .bg_1 .banner-text h1::after,
+    .banner_slider .bg_1 .banner-text p::before,
+    .banner_slider .bg_1 .banner-text p::after{
+        display: none;
+    }
+
+    .banner_slider .bg_1 .banner-text h3,
+    .banner_slider .bg_2 .banner-text h3,
+    .banner_slider .bg_3 .banner-text h3{
+        font-size: 20px;
+    }
+
+    .banner_slider .bg_1 .banner-text h1,
+    .banner_slider .bg_2 .banner-text h1,
+    .banner_slider .bg_3 .banner-text h1{
+        font-size: 40px;
+    }
+
+    .banner_slider .bg_1 .banner-text p{
+        padding: 0;
+    }
+
+    /* End of banner section */
+
+    /* about section start */
+    #ABOUT{
+        margin: 30px 0 30px 0;
+    }
+
+    #ABOUT .aboutData p:first-of-type {
+        padding: 0 !important;
+        text-align: justify !important;
+        margin: 10px 0 20px 0 !important;
+    }
+
+    #ABOUT .aboutData p:last-of-type {
+        padding: 0;
+        text-align: justify !important;
+        margin-bottom: 20px !important;
+    }
+    /* End of about section */
+
+    /* team section start */
+    #TEAM {
+        margin-top: 35px;
+        padding-bottom: 0px;
+    }
+
+    #TEAM .teamMember {
+        margin-top: 40px;
+    }
+    /* End of team section */
+
+    /* testimonial section start */
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem{
+        text-align: center;
+    }
+
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Image{
+        display: inline-block;
+    }
+
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Text p {
+        padding: 0 17px;
+        text-align: center;
+    }
+    /* End of testimonial seciton */
+
+    /* Membership section start */
+    #MEMBERSHIP {
+        margin-top: 40px;
+    }
+
+    #MEMBERSHIP .container .row .col-lg-4:nth-child(2){
+        margin-top: -70px;
+    }
+    #MEMBERSHIP .container .row .col-lg-4:last-of-type{
+        margin-top: -70px;
+    }
+    /* End of membership section */
+
+    /* funfact section start */
+    #FUNFACT {
+        padding: 35px 0 17px 0;
+        text-align: center;
+    }
+
+    #FUNFACT .container .row .funItem{
+        margin-bottom: 10px;
+    }
+    /* End of funfact section */
+
+    /* routine section start */
+    #OURCLASSES .routineMenu .nav-tabs .nav-item {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    #OURCLASSES .routineContent ul li {
+        width: 100%;
+        margin-top: 3px;
+        padding: 10px;
+    }
+    /* End of routine section */
+
+    /* footer section start */
+    .footer-content .footer-body .footer-item{
+        margin-bottom: 20px;
+    }
+    /* End of footer section */
+}
+/*====================== 
+    extra small device
+========================*/
+
+/* ======================
+    Small Device start
+=========================*/
+@media (min-width: 576px) and (max-width: 767px){
+
+    /* navbar css start */
+    .navbar-brand {
+        position: static;
+        transform: skewX(0deg);
+        border-radius: 10px;
+        background: rgba(168, 168, 168, 0.604);
+
+    }
+
+    .navbar-brand img{
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #ffff;
+    }
+
+    .navbar-light .navbar-toggler i{
+        color: #ffff;
+    }
+
+    .navbar-light .navbar-nav {
+        background: rgba(226, 62, 56, 0.5);
+        width: 50%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        z-index: 2;
+    }
+    /* navbar css end */
+
+    /* banner section start */
+    .banner_slider .bg_1 .banner-text h3::before,
+    .banner_slider .bg_1 .banner-text h3::after,
+    .banner_slider .bg_1 .banner-text h1::before,
+    .banner_slider .bg_1 .banner-text h1::after,
+    .banner_slider .bg_1 .banner-text p::before,
+    .banner_slider .bg_1 .banner-text p::after{
+        display: none;
+    }
+
+    .banner_slider .bg_1 .banner-text h3,
+    .banner_slider .bg_2 .banner-text h3,
+    .banner_slider .bg_3 .banner-text h3{
+        font-size: 30px;
+    }
+
+    .banner_slider .bg_1 .banner-text h1,
+    .banner_slider .bg_2 .banner-text h1,
+    .banner_slider .bg_3 .banner-text h1{
+        font-size: 50px;
+    }
+
+    /* End of banner css */
+
+    /* about section start */
+    #ABOUT{
+        margin: 30px 0 30px 0;
+    }
+
+    #ABOUT .aboutData p:first-of-type {
+        padding: 0 10px !important;
+        text-align: justify !important;
+        margin: 10px 0 20px 0 !important;
+    }
+
+    #ABOUT .aboutData p:last-of-type {
+        padding: 0 10px;
+        text-align: justify !important;
+        margin-bottom: 20px !important;
+    }
+    /* End of about section */
+
+    /* team section start */
+    #TEAM {
+        margin-top: 35px;
+        padding-bottom: 0px;
+    }
+
+    #TEAM .teamMember {
+        margin-top: 40px;
+    }
+    /* End of team section */
+
+    /* testimonial section start */
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem{
+        text-align: center;
+    }
+
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Image{
+        display: inline-block;
+    }
+
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Text p {
+        padding: 0 10px;
+        text-align: center;
+    }
+    /* End of testimonial seciton */
+
+     /* Membership section start */
+     #MEMBERSHIP {
+        margin-top: 40px;
+    }
+
+    #MEMBERSHIP .container .row .col-lg-4:nth-child(2){
+        margin-top: -70px;
+    }
+    #MEMBERSHIP .container .row .col-lg-4:last-of-type{
+        margin-top: -70px;
+    }
+    /* End of membership section */
+
+    /* Funfact section start */
+    #FUNFACT{
+        margin-top: -25px;
+    }
+    /* End of Funfact section */
+
+    /* Routine section start */
+
+    #OURCLASSES{
+        margin-top: 25px;
+    }
+
+    #OURCLASSES .routineMenu .nav-tabs{
+        margin-left: 5px;
+    }
+
+    #OURCLASSES .routineMenu .nav-tabs .nav-item {
+        width: 49%;
+        margin-top: 2px;
+        margin-left: 1px;
+    }
+
+    #OURCLASSES .routineContent ul li{
+        width: 49%;
+        margin-top: 3px;
+        padding: 10px;
+    }
+    /* End of routine section */
+}
+/* ======================
+    Small Device end
+=========================*/
+
+/* =======================
+    Medium Device
+========================== */
+@media (min-width:768px) and (max-width: 991px){
+    .banner_slider .bg_1 .banner-text p::after {
+        width: 42px;
+    }
+    /* navbar css start */
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-toggler i{
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav {
+        background: rgba(226, 62, 56, 0.5);
+        width: 50%;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        z-index: 2;
+    }
+    /* navbar css end */
+
+    /* banner section start */
+    .banner_slider .bg_1 .banner-text h3::before,
+    .banner_slider .bg_1 .banner-text h1::before,
+    .banner_slider .bg_1 .banner-text p::before
+     {
+        left: 71px;
+    }
+
+    .banner_slider .bg_1 .banner-text h3::after,
+    .banner_slider .bg_1 .banner-text h1::after,
+    .banner_slider .bg_1 .banner-text p::after{
+        right: 71px;
+    }
+    /* End of banner section */
+
+    /* about section start */
+    #ABOUT{
+        margin: 30px 0 30px 0;
+    }
+
+    #ABOUT .aboutData p:first-of-type {
+        padding: 0 10px !important;
+        text-align: justify !important;
+        margin: 10px 0 20px 0 !important;
+    }
+
+    #ABOUT .aboutData p:last-of-type {
+        padding: 0 10px;
+        text-align: justify !important;
+        margin-bottom: 20px !important;
+    }
+    /* End of about section */
+
+    /* team section start */
+    #TEAM {
+        margin-top: 35px;
+        padding-bottom: 0px;
+    }
+
+    #TEAM .teamMember {
+        margin-top: 40px;
+    }
+    /* End of team section */
+
+    /* testimonial section start */
+
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Image{
+        display: inline-block;
+    }
+
+    #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Text p {
+        padding-right: 10px;
+        text-align: justify;
+    }
+    /* End of testimonial seciton */
+
+    /* funfact section start */
+    #FUNFACT {
+        padding: 35px 0 17px 0;
+        text-align: center;
+    }
+
+    #FUNFACT .container .row .funItem{
+        margin-bottom: 10px;
+    }
+    /* End of funfact section */
+
+    /* Routine section start */
+
+    #OURCLASSES{
+        margin-top: 25px;
+    }
+
+    #OURCLASSES .routineMenu .nav-tabs{
+        margin-left: 5px;
+    }
+
+    #OURCLASSES .routineMenu .nav-tabs .nav-item {
+        width: 49%;
+        margin-top: 2px;
+        margin-left: 1px;
+    }
+
+    #OURCLASSES .routineContent ul li {
+        width: 49%;
+        margin-top: 3px;
+        padding: 18px 0 0 18px;
+        margin-left: 3px !important;
+    }
+    /* End of routine section */
+
+    /* offcanvas section */
+    .offcanvas .navbar a {
+        width: 80%;
+    }
+    /* End offcanvas section */
+}
+
+/* =======================
+    Medium Device End
+========================== */
+
+/* =======================
+    Large Device
+========================== */
+@media (min-width:992px) and (max-width: 1199px){
+
+    /* banner section start */
+    .banner_slider .bg_1 .banner-text h3::before {
+        left: -18px;
+        width: 150px;
+    }
+    .banner_slider .bg_1 .banner-text h3::after {
+        right: -40px;
+        top: 28px;
+        width: 123px;
+    }
+
+    .banner_slider .bg_1 .banner-text h1::before {
+        top: -17px;
+        left: -18px;
+    }
+
+    .banner_slider .bg_1 .banner-text h1::after {
+        top: -16px;
+        right: -40px;
+    }
+
+    .banner_slider .bg_1 .banner-text p::before{
+        left: -18px;
+        width: 34px;
+    }
+    .banner_slider .bg_1 .banner-text p::after {
+        right: -37px;
+        width: 22px;
+        top: 94px;
+    }
+    /* End of banner section */
+
+    /* offcanvas section */
+    .offcanvas .navbar a {
+        width: 80%;
+    }
+    /* End of offcanvas section */
+
+    /* about section start */
+    #ABOUT {
+        margin-top: 65px;
+    }
+
+    figure {
+        margin: 80px 0 1rem;
+    }
+
+    #ABOUT .aboutData p {
+        margin-top: 0;
+        text-align: justify !important;
+    }
+    /* End of about section */
+
+    /* routin section start */
+    #OURCLASSES .routineContent{
+        margin: 0 0px 0 9px;
+    }
+    #OURCLASSES .routineContent ul li {
+        width: 19%;
+    }
+    /* End of routin section */
+
+    /* footer section start */
+    .footer-content .footer-body .footer-item .opening-hours li span {
+        width: 82px;
+    }
+
+    .footer-content .footer-footer::after {
+        top: 5px;
+    }
+    /* End of footer section */
+
+}
+/* =======================
+    Large Device End
+========================== */
