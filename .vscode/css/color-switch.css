@@ -1,0 +1,145 @@
+/* Orange color section */
+
+.orange .navbar-light .navbar-nav .nav-link::after,
+.orange .banner_slider .bg_1 .banner-text h1::before,
+.orange .banner_slider .bg_1 .banner-text h1::after,
+.orange .banner_slider .bg_1 .banner-text h3::before,
+.orange .banner_slider .bg_1 .banner-text h3::after,
+.orange .banner_slider .bg_1 .banner-text p::before,
+.orange .banner_slider .bg_1 .banner-text p::after,
+.orange .menu-bar,
+.orange .offcanvas .navbar a:hover{
+    background: #EAB543;
+}
+
+.orange .banner_slider .bannerItem .container .banner-text h1,
+.orange #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Details .ratings i,
+.orange #OURCLASSES .container .web-list .left-arrow:hover,
+.orange #OURCLASSES .container .web-list .right-arrow:hover,
+.orange .footer-content .footer-body .footer-item .footer-contact .contact-icon i,
+.orange .footer-content .footer-footer .copyright a,
+.orange #TEAM .teamMember .card .memberImage .overlay a:hover i,
+.orange .footer-content .footer-body .footer-item .twitter-icon i{
+	color: #EAB543;
+}
+
+.orange .banner_slider .bannerItem .banner-text a:hover,
+.orange #BANNER .slick-dots li.slick-active,
+.orange #TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li.slick-active,
+.orange .footer-content .footer-body .footer-item .footer-social .btn:hover {
+	background: #EAB543;
+	border-color: #EAB543;
+}
+
+.orange #ABOUT .about_video .overlay i,
+.orange #MEMBERSHIP .teamMembership .card:hover .cardHeader,
+.orange #MEMBERSHIP .teamMembership .card:hover .cardfooter,
+.orange #OURCLASSES .routineMenu .nav-tabs .nav-item .nav-link.active,
+.orange #OURCLASSES .routineContent ul li.active{
+	background: #EAB543;
+}
+
+.orange #GALLERY .gallery_background .galleryItem .overlay,
+ .orange #TEAM .teamMember .card .memberImage .overlay,
+ .orange .footer-content .footer-body .footer-item .flickr-photos li .overlay,
+ .orange .navbar-light .navbar-nav {
+    background: rgba(234, 181, 67, 0.5);
+}
+/* Orange color*/
+
+/* Blue color*/
+.blue .navbar-light .navbar-nav .nav-link::after,
+.blue .banner_slider .bg_1 .banner-text h1::before,
+.blue .banner_slider .bg_1 .banner-text h1::after,
+.blue .banner_slider .bg_1 .banner-text h3::before,
+.blue .banner_slider .bg_1 .banner-text h3::after,
+.blue .banner_slider .bg_1 .banner-text p::before,
+.blue .banner_slider .bg_1 .banner-text p::after,
+.blue .menu-bar,
+.blue .offcanvas .navbar a:hover{
+    background: #3B3B98;
+}
+
+.blue .banner_slider .bannerItem .container .banner-text h1,
+.blue #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Details .ratings i,
+.blue #OURCLASSES .container .web-list .left-arrow:hover,
+.blue #OURCLASSES .container .web-list .right-arrow:hover,
+.blue .footer-content .footer-body .footer-item .footer-contact .contact-icon i,
+.blue .footer-content .footer-footer .copyright a,
+.blue #TEAM .teamMember .card .memberImage .overlay a:hover i,
+.blue .footer-content .footer-body .footer-item .twitter-icon i{
+	color: #3B3B98;
+}
+
+.blue .banner_slider .bannerItem .banner-text a:hover,
+.blue #BANNER .slick-dots li.slick-active,
+.blue #TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li.slick-active,
+.blue .footer-content .footer-body .footer-item .footer-social .btn:hover {
+	background: #3B3B98;
+	border-color: #3B3B98;
+}
+
+.blue #ABOUT .about_video .overlay i,
+.blue #MEMBERSHIP .teamMembership .card:hover .cardHeader,
+.blue #MEMBERSHIP .teamMembership .card:hover .cardfooter,
+.blue #OURCLASSES .routineMenu .nav-tabs .nav-item .nav-link.active,
+.blue #OURCLASSES .routineContent ul li.active{
+	background: #3B3B98;
+}
+
+.blue #GALLERY .gallery_background .galleryItem .overlay,
+ .blue #TEAM .teamMember .card .memberImage .overlay,
+ .blue .footer-content .footer-body .footer-item .flickr-photos li .overlay,
+ .blue .navbar-light .navbar-nav {
+    background: rgba(59, 59, 152, 0.5);
+}
+/* Blue color*/
+
+
+/* Green color*/
+.green .navbar-light .navbar-nav .nav-link::after,
+.green .banner_slider .bg_1 .banner-text h1::before,
+.green .banner_slider .bg_1 .banner-text h1::after,
+.green .banner_slider .bg_1 .banner-text h3::before,
+.green .banner_slider .bg_1 .banner-text h3::after,
+.green .banner_slider .bg_1 .banner-text p::before,
+.green .banner_slider .bg_1 .banner-text p::after,
+.green .menu-bar,
+.green .offcanvas .navbar a:hover{
+    background: #009432;
+}
+
+.green .banner_slider .bannerItem .container .banner-text h1,
+.green #TESTIMONIAL .testimonial-bg .testimonialSlider .testimonialItem .testimonial_Person_Details .ratings i,
+.green #OURCLASSES .container .web-list .left-arrow:hover,
+.green #OURCLASSES .container .web-list .right-arrow:hover,
+.green .footer-content .footer-body .footer-item .footer-contact .contact-icon i,
+.green .footer-content .footer-footer .copyright a,
+.green #TEAM .teamMember .card .memberImage .overlay a:hover i,
+.green .footer-content .footer-body .footer-item .twitter-icon i{
+	color: #009432;
+}
+
+.green .banner_slider .bannerItem .banner-text a:hover,
+.green #BANNER .slick-dots li.slick-active,
+.green #TESTIMONIAL .testimonial-bg .testimonialSlider .slick-dots li.slick-active,
+.green .footer-content .footer-body .footer-item .footer-social .btn:hover {
+	background: #009432;
+	border-color: #009432;
+}
+
+.green #ABOUT .about_video .overlay i,
+.green #MEMBERSHIP .teamMembership .card:hover .cardHeader,
+.green #MEMBERSHIP .teamMembership .card:hover .cardfooter,
+.green #OURCLASSES .routineMenu .nav-tabs .nav-item .nav-link.active,
+.green #OURCLASSES .routineContent ul li.active{
+	background: #009432;
+}
+
+.green #GALLERY .gallery_background .galleryItem .overlay,
+ .green #TEAM .teamMember .card .memberImage .overlay,
+ .green .footer-content .footer-body .footer-item .flickr-photos li .overlay,
+ .green .navbar-light .navbar-nav {
+    background: rgba(0, 148, 49, 0.5);
+}
+/* Green color*/
